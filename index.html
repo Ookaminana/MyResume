@@ -6,38 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div id='main'>
-        <div id="content">
-            <div id='aboutMe'>
-                <h2>Front-End Developer</h2>
-                <h1>Anton Chornyi</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+    <div class='main'>
+        <div class="content">
+            <div class='aboutMe'>
+                <h2 class='aboutMeProfession'>Front-End Developer</h2>
+                <h1 class="content-name">Anton Chornyi</h1>
+                <p class='about-me-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
             </div>
 
-            <div id='projects'>
-                <h3>Projects</h3>
-                <ol>
-                    <li>
-                        <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a><span>........</span> [ HTML5, CSS3 ]
+            <div class='projects'>
+                <h3 class="content-title">Projects</h3>
+                <ol class="projects-list">
+                    <li class="projects-li">
+                        <span><a href="https://hellenglish.goit.global/" class="proj-a">https://hellenglish.goit.global/</a></span><span class="proj-text">.............</span> [ <span class="proj-text">HTML5, CSS3</span> ]
                     </li>
-                    <li>
-                        <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a><span>................</span>[ JavaScript ]
+                    <li class="projects-li">
+                        <a href="https://kidslike.goit.global/" class="proj-a">https://kidslike.goit.global/</a><span class="proj-text">....................</span>[<span class="proj-text">JavaScript</span> ]
                     </li>
-                    <li>
-                        <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a><span>........</span>[ React.js, Node.js ]
+                    <li class="projects-li">
+                        <a href="https://cryptohub.goit.global/" class="proj-a">https://cryptohub.goit.global/</a><span class="proj-text">..............</span>[<span class="proj-text">React.js, Node.js</span> ]
                     </li>
                 </ol>
 
             </div>
 
-            <div id='workExpirience'>
-                <h3>Work Experience</h3>
+            <div class='workExpirience'>
+                <h3 class="content-title">Work Experience</h3>
 
                 <div class="work">
-                    <h4>Front-End Developer Freelance</h4>
+                    <h4 class="work-h4">Front-End Developer <span class="work-h4-span">Freelance</span> </h4>
                     <p>September 2019 - up to now | Country</p>
                     <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
@@ -48,7 +53,7 @@
                 </div>
 
                 <div class="work">
-                    <h4>Manager Roga & Kopyta New</h4>
+                    <h4 class="work-h4">Manager <span class="work-h4-span">Roga & Kopyta New</span></h4>
                     <p>March 2015 - October 2018 | Country</p>
                     <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
@@ -58,7 +63,7 @@
                 </div>
 
                 <div class="work">
-                    <h4>Manager Roga & Kopyta LLC </h4>
+                    <h4 class="work-h4"><span class="work-h4-span">Manager Roga & Kopyta LLC</span> </h4>
                     <p>June 2014 - February 2015 | Country</p>
                     <ul>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -69,49 +74,49 @@
 
             </div>
 
-            <div id='Education'>
-                <h3>Education</h3>
+            <div class='Education'>
+                <h3 class="content-title">Education</h3>
                 <h4>National University of Radioelectronics</h4>
-                <h5>Management</h5>
+                <h4>Management</h4>
                 <p>September 2009 - June 2014 | Country</p>
             </div>
 
         </div>
 
-        <aside>
+        <aside class="sidebar">
             <img src="img/photo.jpg" alt="">
-            <div>
-                <h3>Contacts</h3>
+            <div class="side-content contacts">
+                <h3 class="side-h3">Contacts</h3>
                 <div>
-                    <span>C:</span>
-                    <a href="tel:+77777777777">+7 777 777 77 77</a>
+                    <span class='side-contact-type'>C:</span>
+                    <a href="tel:+77777777777" class="side-contact-link side-tel">+7 777 777 77 77</a>
                 </div>
                 <div>
-                    <span>E:</span>
-                    <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                    <span class='side-contact-type'>E:</span>
+                    <a href="mailto:chornyiav@gmail.com" class="side-contact-link">chornyiav@gmail.com</a>
                 </div>
             </div>
 
-            <div id='techSkills'>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
+            <div class='techSkills side-content'>
+                <h3 class="side-h3">Tech Skills</h3>
+                <ul class="side-ul">
+                    <li class="side-li"> <span class="side-li-text">HTML5</span> </li>
+                    <li class="side-li"> <span class="side-li-text">CSS3</span> </li>
+                    <li class="side-li"><span class="side-li-text">GIT</span></li>
+                    <li class="side-li"><span class="side-li-text">WebPack</span></li>
+                    <li class="side-li"><span class="side-li-text">JavaScript</span></li>
+                    <li class="side-li"><span class="side-li-text">React.js</span></li>
+                    <li class="side-li"><span class="side-li-text">Node.js</span></li>
                 </ul>
             </div>
 
-            <div id='softSkills'>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
+            <div class='softSkills side-content'>
+                <h3 class="side-h3"><span class="side-li-text"></span>Soft Skills</h3>
+                <ul class="side-ul">
+                    <li class="side-li"><span class="side-li-text">Scrum</span></li>
+                    <li class="side-li"><span class="side-li-text">Agile</span></li>
+                    <li class="side-li"><span class="side-li-text">GTD</span></li>
+                    <li class="side-li"><span class="side-li-text">Teamwork</span></li>
                 </ul>
             </div>
 
