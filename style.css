@@ -79,6 +79,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
+    margin: 0 0 0 5x;
 }
 
 .proj-text {
@@ -86,12 +87,34 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #595959;    
 }
 
-.workExpirience {}
+.workExpirience {
+    margin: 0 0 45px 0;
+}
 
-.work {}
+.work {
+    margin: 0 0 20px 0;
+    
+}
+
+.work-p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.work-palka{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000;
+}
 
 .work-h4 {
     font-style: normal;
@@ -106,7 +129,44 @@ body {
     color: #FB6D3A;
 }
 
+.work-ul{
+    padding: 0 0 0 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;    
+}
+
+.work-ul li {
+    
+}
+
 .Education {}
+
+.content-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.education-university{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.education-course{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
 
 .techSkills {}
 
