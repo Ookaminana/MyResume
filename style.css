@@ -14,7 +14,7 @@ body {
 }
 
 .content {
-    padding: 100px 90px;
+    padding: 100px 125px 100px 90px;
 }
 
 .aboutMe {
@@ -70,6 +70,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #000;
+    padding-left: 10px;
 }
 
 .proj-a {
@@ -87,7 +88,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;    
+    color: #595959;
 }
 
 .workExpirience {
@@ -96,10 +97,9 @@ body {
 
 .work {
     margin: 0 0 20px 0;
-    
 }
 
-.work-p{
+.work-p {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -108,7 +108,7 @@ body {
     margin: 0 0 10px 0;
 }
 
-.work-palka{
+.work-palka {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -129,22 +129,20 @@ body {
     color: #FB6D3A;
 }
 
-.work-ul{
+.work-ul {
     padding: 0 0 0 17px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;    
+    color: #595959;
 }
 
-.work-ul li {
-    
-}
+.work-ul li {}
 
 .Education {}
 
-.content-title{
+.content-title {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -152,7 +150,7 @@ body {
     color: #000000;
 }
 
-.education-university{
+.education-university {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -160,7 +158,7 @@ body {
     color: #FB6D3A;
 }
 
-.education-course{
+.education-course {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
